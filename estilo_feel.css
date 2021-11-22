@@ -616,6 +616,70 @@ background-color:rgba(240,48,125,1.00);
 border-radius:35px;
 	margin-left: 280px;
 }
+.caja-izquierda{
+		display: flex;
+		height: 300px;
+		
+		}
+
+.imagenes-cajas{ height: 250px;
+				margin-left: 30px;}
+
+.texto-cajas{ text-align: center;
+				color:rgba(252,75,108,1.00);
+			font-size: 20px;
+			padding-top: 10px;
+			}
+
+.texto-cajas h6{text-align: justify;
+	padding-top: 10px;
+	color: black;
+	margin-left: 10px;
+	font-size: 12px;
+	}
+
+.cajitas{width: 100%;
+	height: auto;
+		border: 1px solid rgba(255,255,255,1.00);
+	background:rgba(255,255,255,1.00);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	}
+
+	
+.item{width: 250px;
+		height: 200px;
+	background:rgba(254,226,231,1.00);
+	margin: 20px;
+	box-sizing: border-box;
+	font-size: 15px;
+	text-align: justify;
+	padding-top: 40px;
+	color: rgba(0,0,0,1.00);}
+
+.contenedor{width:auto;
+		height: 300px;
+		overflow-y:hidden;
+		overflow-x: auto;
+		display: flex;
+		background-color:aliceblue;
+		}
+
+.carrusel{flex: 0 0 550px;
+					width: 300px;
+					display: inline-flex;
+					justify-content: center;
+					align-items:center;
+					font-size: 15px;
+					color: black;
+					text-align: justify;}
+
+
+
+
+
 
 
 
